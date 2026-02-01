@@ -27,6 +27,13 @@ class teleport_flash
     titles[] = {0, ""};
 };
 
+class crescendo
+{
+    name = "crescendo";
+    sound[] = {"USER\sounds\crescendo.ogg", VOLUME, 1, 500};
+    titles[] = {0, ""};
+};
+
 
 class GRAD_electricFence_sound_hum
 {

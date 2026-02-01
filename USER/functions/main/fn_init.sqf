@@ -13,7 +13,7 @@ if (isServer) then {
 
     // current Phase, max Phase
     private _GRAD_Z_portalPhase = [
-      0,
+      -1,
       [
         [0,4],
         [0,4],
@@ -22,14 +22,16 @@ if (isServer) then {
       ]
     ];
     missionNamespace setVariable ["GRAD_Z_portalPhase", _GRAD_Z_portalPhase, true];
-    ["BLU_F", "vm_vilematter_phase0", true] call GRAD_Loadout_fnc_FactionSetLoadout;
+    // ["BLU_F", "vm_vilematter_phase0", true] call GRAD_Loadout_fnc_FactionSetLoadout;
 
     // [2500, false] remoteExecCall ["ace_viewdistance_fnc_changeViewDistance", [0, -2] select isMultiplayer];
 
-    // relevant only for AI
+    // phase 0 loadout
     { 
-        [_x] call grad_loadout_fnc_doLoadoutForUnit;
+         _x setUnitLoadout ([_x] call GRAD_Z_main_fnc_getPhaseLoadout);
     } forEach playableUnits + switchableUnits;
+    
+    
 
     // todo initial spawn teleport
  

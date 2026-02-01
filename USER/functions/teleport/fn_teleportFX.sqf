@@ -29,8 +29,9 @@ if (local _unit && isPlayer _unit) then {
 
         // systemChat "control";
 
+        // [8447.73,18027.3,0]
         // park unit off map for tunnel fx
-        _unit setPos [(_index * -1000), (_index * -1000), 0];
+        _unit setPos [(_index * 1000), (_index * 1000), 0];
         _unit setVariable ["GRAD_Z_teleportDone", false];
 
         [_duration, _numberStart, _numberEnd] call GRAD_Z_teleport_fnc_wormHole;
@@ -44,7 +45,7 @@ if (local _unit && !isPlayer _unit) then {
     ["GRAD_Z_curatorInfo",[_unit, "teleport_start"]] call CBA_fnc_serverEvent;
 
     // park unit off map for tunnel fx
-    _unit setPos [(_index * -1000), (_index * -1000), 0];
+    _unit setPos [(_index * 1000), (_index * 1000), 0];
     _unit setVariable ["GRAD_Z_teleportDone", false];
 
     [{
@@ -98,7 +99,7 @@ if (local _unit && !isPlayer _unit) then {
             params ["_destinationPositions", "_unit"];
 
             
-            _unit setUnitLoadout (call GRAD_Z_main_fnc_getPhaseLoadout);
+            _unit setUnitLoadout ([_unit] call GRAD_Z_main_fnc_getPhaseLoadout);
 
             private _destination = selectRandom _destinationPositions;
             private _customPosition = (_destination getPos [random 7, random 360]);
@@ -111,9 +112,9 @@ if (local _unit && !isPlayer _unit) then {
             [_unit, "Acts_UnconsciousStandUp_part1"] remoteExec ["switchMove"];
             [_unit] call zen_common_fnc_healUnit;
 
-            // only destination positions in phase 1 are multiple, thus great way to detect intro
-            if (isPlayer _unit && (count _destinationPositions > 1)) then {
-                [] spawn GRAD_Z_phase0_fnc_introText;
+            private _currentPhase = [] call GRAD_Z_main_fnc_getCurrentPhase;
+            if (isPlayer _unit && _currentPhase == 0) then {
+                [] spawn GRAD_Z_teleport_fnc_introText;
             };
 
         }, [_destinationPositions, _unit]] call CBA_fnc_waitUntilAndExecute;

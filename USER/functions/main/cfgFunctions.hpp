@@ -11,5 +11,6 @@ class GRAD_Z_main {
       class phaseEventHandler { postInit = 1; };
       class getPhaseDates;
       class getPhaseLoadout;
+      class hideUnitsPhases { postInit = 1; };
    };
 };
