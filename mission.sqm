@@ -21,9 +21,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={13465.436,10.506024,1652.063};
-		dir[]={0.11749507,-0.19315898,0.97410709};
-		up[]={0.023130842,0.9811675,0.19176902};
-		aside[]={0.99280411,-1.8626451e-09,-0.11975028};
+		dir[]={0.11749507,-0.19315897,0.97410709};
+		up[]={0.023130842,0.9811675,0.191769};
+		aside[]={0.99280411,-3.7252903e-09,-0.11975028};
 	};
 };
 binarizationWanted=0;
@@ -835,19 +835,6 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					singleType="STRING";
-					value="[]";
-				};
-			};
-		};
-		class Attribute3
-		{
 			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
@@ -856,6 +843,19 @@ class CustomAttributes
 				{
 					singleType="STRING";
 					value="[[[423.845,17599.3,16.3043],[[-0.0468008,0.997532,-0.052336],[-0.00481411,0.0521675,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[431.299,17599.6,16.3083],[[-0.0468008,0.997532,-0.052336],[-0.00114893,0.0523396,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[430.635,17613.8,16.3083],[[0.0468009,-0.997532,-0.052336],[0.00375678,-0.0522172,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[423.182,17613.4,16.3043],[[0.0468009,-0.997532,-0.052336],[9.15846e-05,-0.0523891,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[436.793,17599.9,16.3036],[[-0.0467916,0.997533,-0.052336],[-0.00241515,0.0522802,0.99863]],""Peer_Trench_Straight_Short_Chameleon""],[[437.701,17595.8,16.2818],[[0.935339,-0.349859,-0.052336],[0.0487172,-0.0191423,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[437.687,17595.8,16.2818],[[0.935339,-0.349859,-0.052336],[0.0487763,-0.0189844,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[460,17603,16.3302],[[-0.887752,-0.457337,-0.052336],[-0.0441506,-0.0285757,0.998616]],""Peer_Trench_Straight_Short_Chameleon""],[[458.871,17605.1,16.3416],[[-0.887752,-0.457337,-0.052336],[-0.0446447,-0.0276172,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[442.954,17614.3,16.3051],[[0.0466601,-0.997539,-0.052336],[0.00105567,-0.0523438,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[438.128,17614.1,16.3057],[[0.0466601,-0.997539,-0.052336],[0.0040662,-0.0522029,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[437.297,17598.6,16.307],[[0.807117,0.588067,-0.052336],[0.0418791,0.0313958,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[452.251,17612.1,16.3561],[[-0.499794,-0.864562,-0.052336],[-0.0294139,-0.0434474,0.998623]],""Peer_Trench_Straight_Long_Chameleon""],[[465.767,17591.8,16.3078],[[-0.887751,-0.45734,-0.052336],[-0.046705,-0.0236189,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[463.434,17596.3,16.3106],[[-0.887751,-0.45734,-0.052336],[-0.0458384,-0.0253008,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[450.851,17589.8,16.3106],[[0.887751,0.45734,-0.052336],[0.0472119,0.0226348,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[453.184,17585.3,16.3078],[[0.887751,0.45734,-0.052336],[0.0463473,0.0243131,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[362.241,17608.1,16.4028],[[0.250214,0.966775,-0.052336],[0.0252198,0.0475289,0.998551]],""Peer_Trench_Straight_Short_Chameleon""],[[366.237,17607.1,16.3578],[[0.250214,0.966775,-0.052336],[0.022081,0.0483432,0.998587]],""Peer_Trench_Straight_Short_Chameleon""],[[370.232,17606,16.3435],[[0.250214,0.966775,-0.052336],[0.0108511,0.0512518,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[377.098,17599.5,16.3358],[[0.969639,0.238875,-0.052336],[0.0515914,0.00937297,0.998624]],""Peer_Trench_Straight_Short_Chameleon""],[[390.726,17603.3,16.3519],[[-0.969641,-0.238867,-0.052336],[-0.047705,-0.0251318,0.998545]],""Peer_Trench_Straight_Short_Chameleon""],[[390.103,17605.8,16.342],[[-0.969641,-0.238867,-0.052336],[-0.0557145,0.00740934,0.998419]],""Peer_Trench_Straight_Short_Chameleon""],[[377.245,17618.9,16.3373],[[-0.250184,-0.966783,-0.052336],[-0.0136739,-0.0505214,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[371.516,17620.3,16.3466],[[-0.250184,-0.966783,-0.052336],[-0.00951151,-0.0515982,0.998623]],""Peer_Trench_Straight_Short_Chameleon""],[[365.788,17621.8,16.3883],[[-0.250184,-0.966783,-0.052336],[-0.00305694,-0.053266,0.998576]],""Peer_Trench_Straight_Short_Chameleon""],[[374.681,17603.5,16.3448],[[0.71016,0.702092,-0.052336],[0.0399779,0.0340028,0.998622]],""Peer_Trench_Straight_Short_Chameleon""],[[385.45,17614.1,16.3344],[[-0.710286,-0.701965,-0.052336],[-0.0361382,-0.0378875,0.998628]],""Peer_Trench_Straight_Long_Chameleon""],[[340.932,17613.6,16.321],[[0.250235,0.966769,-0.052336],[0.0110515,0.0512,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[347.956,17611.8,16.3488],[[0.250235,0.966769,-0.052336],[0.00776132,0.052051,0.998614]],""Peer_Trench_Straight_Short_Chameleon""],[[354.981,17610,16.3783],[[0.250235,0.966769,-0.052336],[0.0105962,0.0513178,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[358.527,17623.7,16.3783],[[-0.250236,-0.966769,-0.052336],[-0.015631,-0.0500146,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[351.503,17625.5,16.3488],[[-0.250236,-0.966769,-0.052336],[-0.0184676,-0.0492798,0.998614]],""Peer_Trench_Straight_Short_Chameleon""],[[344.479,17627.3,16.321],[[-0.250236,-0.966769,-0.052336],[-0.0151767,-0.0501323,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[393.784,17590.9,16.3108],[[-0.969645,-0.238852,-0.052336],[-0.0513631,-0.0102997,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[392.52,17596,16.3025],[[-0.969645,-0.238852,-0.052336],[-0.051029,-0.0116569,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[378.776,17592.6,16.3025],[[0.969645,0.238852,-0.052336],[0.0506037,0.0133831,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[380.039,17587.5,16.3108],[[0.969645,0.238852,-0.052336],[0.0502718,0.0147303,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[341.555,17577.3,16.3758],[[0.504922,0.861577,-0.052336],[0.0304843,0.0427954,0.998619]],""Peer_Trench_Straight_Short_Chameleon""],[[347.577,17573.8,16.3686],[[0.504922,0.861577,-0.052336],[0.0242135,0.0464708,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[353.598,17570.3,16.3636],[[0.504922,0.861577,-0.052336],[0.0299589,0.0431034,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[359.619,17566.7,16.3571],[[0.504922,0.861577,-0.052336],[0.0245741,0.0462595,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[365.64,17563.2,16.3739],[[0.504922,0.861577,-0.052336],[0.0241859,0.0464869,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[371.662,17559.7,16.3798],[[0.504922,0.861577,-0.052336],[0.0272789,0.0446745,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[377.683,17556.1,16.375],[[0.504922,0.861577,-0.052336],[0.0268311,0.0449369,0.99863]],""Peer_Trench_Straight_Short_Chameleon""],[[383.704,17552.6,16.3451],[[0.504922,0.861577,-0.052336],[0.0334889,0.0410332,0.998596]],""Peer_Trench_Straight_Short_Chameleon""],[[389.725,17549.1,16.3322],[[0.504922,0.861577,-0.052336],[0.022627,0.0474001,0.99862]],""Peer_Trench_Straight_Short_Chameleon""],[[395.747,17545.6,16.3447],[[0.504922,0.861577,-0.052336],[0.0272046,0.044718,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[401.768,17542,16.3562],[[0.504922,0.861577,-0.052336],[0.0228945,0.0472435,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[407.789,17538.5,16.3497],[[0.504922,0.861577,-0.052336],[0.0316183,0.0421303,0.998612]],""Peer_Trench_Straight_Short_Chameleon""],[[413.81,17535,16.3353],[[0.504922,0.861577,-0.052336],[0.0248856,0.046077,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[420.967,17547.2,16.3353],[[-0.504922,-0.861577,-0.052336],[-0.0280354,-0.0442311,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[414.946,17550.7,16.3497],[[-0.504922,-0.861577,-0.052336],[-0.0213056,-0.0481741,0.998612]],""Peer_Trench_Straight_Short_Chameleon""],[[408.925,17554.2,16.3562],[[-0.504922,-0.861577,-0.052336],[-0.0300292,-0.0430622,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[402.904,17557.8,16.3447],[[-0.504922,-0.861577,-0.052336],[-0.0257195,-0.0455884,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[396.882,17561.3,16.3322],[[-0.504922,-0.861577,-0.052336],[-0.0302956,-0.042906,0.99862]],""Peer_Trench_Straight_Short_Chameleon""],[[390.861,17564.8,16.3451],[[-0.504922,-0.861577,-0.052336],[-0.0194337,-0.0492701,0.998596]],""Peer_Trench_Straight_Short_Chameleon""],[[384.84,17568.4,16.3751],[[-0.504922,-0.861577,-0.052336],[-0.0260907,-0.0453709,0.99863]],""Peer_Trench_Straight_Short_Chameleon""],[[378.819,17571.9,16.3799],[[-0.504922,-0.861577,-0.052336],[-0.0256417,-0.045634,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[372.797,17575.4,16.374],[[-0.504922,-0.861577,-0.052336],[-0.0287418,-0.043817,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[366.776,17578.9,16.3571],[[-0.504922,-0.861577,-0.052336],[-0.028349,-0.0440473,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[360.755,17582.5,16.3636],[[-0.504922,-0.861577,-0.052336],[-0.0229631,-0.0472033,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[354.734,17586,16.3686],[[-0.504922,-0.861577,-0.052336],[-0.0287114,-0.0438348,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[348.712,17589.5,16.3758],[[-0.504922,-0.861577,-0.052336],[-0.0224367,-0.0475116,0.998619]],""Peer_Trench_Straight_Short_Chameleon""],[[499.693,17501,16.3856],[[-0.504938,-0.861568,-0.052336],[-0.0420854,-0.0359869,0.998466]],""Peer_Trench_Straight_Short_Chameleon""],[[493.672,17504.6,16.4652],[[-0.504938,-0.861568,-0.052336],[0.00885494,-0.0658006,0.997794]],""Peer_Trench_Straight_Short_Chameleon""],[[487.651,17508.1,16.7117],[[-0.504938,-0.861568,-0.052336],[-0.000789227,-0.0601724,0.998188]],""Peer_Trench_Straight_Short_Chameleon""],[[481.629,17511.6,16.668],[[-0.504938,-0.861568,-0.052336],[-0.062918,-0.0237333,0.997737]],""Peer_Trench_Straight_Short_Chameleon""],[[475.608,17515.2,16.4571],[[-0.504938,-0.861568,-0.052336],[-0.0420732,-0.0359941,0.998466]],""Peer_Trench_Straight_Short_Chameleon""],[[469.587,17518.7,16.3798],[[-0.504938,-0.861568,-0.052336],[-0.0299819,-0.0430898,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[463.566,17522.2,16.3537],[[-0.504938,-0.861568,-0.052336],[-0.0293858,-0.0434393,0.998624]],""Peer_Trench_Straight_Short_Chameleon""],[[457.544,17525.7,16.3384],[[-0.504938,-0.861568,-0.052336],[-0.027313,-0.0446545,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[451.523,17529.3,16.3254],[[-0.504938,-0.861568,-0.052336],[-0.0288327,-0.0437636,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[445.502,17532.8,16.3217],[[-0.504938,-0.861568,-0.052336],[-0.024998,-0.0460111,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[439.481,17536.3,16.336],[[-0.504938,-0.861568,-0.052336],[-0.0243891,-0.0463679,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[433.459,17539.9,16.3361],[[-0.504938,-0.861568,-0.052336],[-0.0285052,-0.0439556,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[427.438,17543.4,16.3346],[[-0.504938,-0.861568,-0.052336],[-0.0247877,-0.0461344,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[420.281,17531.2,16.3346],[[0.504938,0.861568,-0.052336],[0.0281362,0.044172,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[426.302,17527.7,16.3361],[[0.504938,0.861568,-0.052336],[0.0244245,0.0463472,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[432.323,17524.1,16.336],[[0.504938,0.861568,-0.052336],[0.0285349,0.0439382,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[438.345,17520.6,16.3217],[[0.504938,0.861568,-0.052336],[0.0279256,0.0442954,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[444.366,17517.1,16.3254],[[0.504938,0.861568,-0.052336],[0.0240903,0.046543,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[450.387,17513.5,16.3384],[[0.504938,0.861568,-0.052336],[0.0256189,0.0456473,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[456.408,17510,16.3537],[[0.504938,0.861568,-0.052336],[0.0235413,0.0468646,0.998624]],""Peer_Trench_Straight_Short_Chameleon""],[[462.43,17506.5,16.3797],[[0.504938,0.861568,-0.052336],[0.0229385,0.0472178,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[468.451,17503,16.4571],[[0.504938,0.861568,-0.052336],[0.010852,0.0542919,0.998466]],""Peer_Trench_Straight_Short_Chameleon""],[[474.472,17499.4,16.6679],[[0.504938,0.861568,-0.052336],[-0.01006,0.0665034,0.997736]],""Peer_Trench_Straight_Short_Chameleon""],[[480.493,17495.9,16.7117],[[0.504938,0.861568,-0.052336],[0.0521146,0.0300922,0.998188]],""Peer_Trench_Straight_Short_Chameleon""],[[486.515,17492.4,16.4652],[[0.504938,0.861568,-0.052336],[0.061728,0.0244342,0.997794]],""Peer_Trench_Straight_Short_Chameleon""],[[492.536,17488.8,16.3856],[[0.504938,0.861568,-0.052336],[0.0108454,0.0542957,0.998466]],""Peer_Trench_Straight_Short_Chameleon""],[[445.937,17551.3,16.3347],[[0.567679,0.821585,-0.052336],[0.0351533,0.0393232,0.998608]],""Peer_Trench_Straight_Short_Chameleon""],[[450.258,17548.3,16.2915],[[0.567679,0.821585,-0.052336],[0.0378905,0.0374302,0.998581]],""Peer_Trench_Straight_Short_Chameleon""],[[454.578,17545.3,16.2586],[[0.567679,0.821585,-0.052336],[0.031921,0.0415577,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[462.625,17557,16.2586],[[-0.567678,-0.821585,-0.052336],[-0.0275791,-0.0445577,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[458.304,17560,16.2915],[[-0.567678,-0.821585,-0.052336],[-0.0216112,-0.0486784,0.998581]],""Peer_Trench_Straight_Short_Chameleon""],[[453.984,17563,16.3348],[[-0.567678,-0.821585,-0.052336],[-0.0243467,-0.0467901,0.998608]],""Peer_Trench_Straight_Short_Chameleon""],[[477.438,17546.8,16.2528],[[-0.567751,-0.821535,-0.052336],[-0.030469,-0.0425611,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[473.117,17549.7,16.2521],[[-0.567751,-0.821535,-0.052336],[-0.0292786,-0.0433838,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[468.796,17552.7,16.2523],[[-0.567751,-0.821535,-0.052336],[-0.0301496,-0.0427818,0.99863]],""Peer_Trench_Straight_Short_Chameleon""],[[460.748,17541.1,16.2523],[[0.567751,0.821535,-0.052336],[0.0293652,0.0433239,0.99863]],""Peer_Trench_Straight_Short_Chameleon""],[[465.069,17538.1,16.2521],[[0.567751,0.821535,-0.052336],[0.0302311,0.0427255,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[469.39,17535.1,16.2528],[[0.567751,0.821535,-0.052336],[0.0290398,0.0435487,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[459.177,17700.3,18.9533],[[0.0751349,0.995799,-0.052336],[-0.0279009,0.0545631,0.99812]],""Peer_Trench_Straight_Short_Chameleon""],[[463.889,17700,19.0647],[[0.0751349,0.995799,-0.052336],[-0.0112532,0.0533277,0.998514]],""Peer_Trench_Straight_Short_Chameleon""],[[468.601,17699.6,19.1326],[[0.0751349,0.995799,-0.052336],[-0.00953138,0.0531991,0.998538]],""Peer_Trench_Straight_Short_Chameleon""],[[469.666,17713.7,19.1327],[[-0.0751351,-0.995799,-0.052336],[-0.0173863,-0.0511681,0.998539]],""Peer_Trench_Straight_Short_Chameleon""],[[464.954,17714.1,19.0648],[[-0.0751351,-0.995799,-0.052336],[-0.0191357,-0.0510348,0.998514]],""Peer_Trench_Straight_Short_Chameleon""],[[460.242,17714.5,18.9536],[[-0.0751351,-0.995799,-0.052336],[-0.0357505,-0.0497606,0.998121]],""Peer_Trench_Straight_Short_Chameleon""],[[486.57,17712.5,18.9582],[[-0.0751346,-0.995799,-0.052336],[0.00694244,-0.0530054,0.99857]],""Peer_Trench_Straight_Short_Chameleon""],[[481.858,17712.8,19.0159],[[-0.0751346,-0.995799,-0.052336],[0.00949195,-0.0531961,0.998539]],""Peer_Trench_Straight_Short_Chameleon""],[[477.145,17713.2,19.0858],[[-0.0751346,-0.995799,-0.052336],[0.0121542,-0.053395,0.9985]],""Peer_Trench_Straight_Short_Chameleon""],[[476.08,17699.1,19.0858],[[0.0751347,0.995799,-0.052336],[0.0200277,0.0509668,0.9985]],""Peer_Trench_Straight_Short_Chameleon""],[[480.793,17698.7,19.0158],[[0.0751347,0.995799,-0.052336],[0.0173673,0.0511696,0.998539]],""Peer_Trench_Straight_Short_Chameleon""],[[485.505,17698.3,18.9582],[[0.0751347,0.995799,-0.052336],[0.0148213,0.0513633,0.99857]],""Peer_Trench_Straight_Short_Chameleon""],[[507.566,17674.1,16.9934],[[0.731474,0.679858,-0.052336],[0.0463515,0.0269993,0.99856]],""Peer_Trench_Straight_Short_Chameleon""],[[510.119,17671.3,16.9442],[[0.731474,0.679858,-0.052336],[0.0481569,0.0250542,0.998526]],""Peer_Trench_Straight_Short_Chameleon""],[[512.673,17668.6,16.8796],[[0.731474,0.679858,-0.052336],[0.0519604,0.0209544,0.998429]],""Peer_Trench_Straight_Short_Chameleon""],[[523.041,17678.2,16.8796],[[-0.731476,-0.679855,-0.052336],[-0.0246942,-0.0502909,0.998429]],""Peer_Trench_Straight_Short_Chameleon""],[[520.487,17681,16.9442],[[-0.731476,-0.679855,-0.052336],[-0.0285048,-0.0461983,0.998526]],""Peer_Trench_Straight_Short_Chameleon""],[[517.934,17683.7,16.9934],[[-0.731476,-0.679855,-0.052336],[-0.0303135,-0.044255,0.99856]],""Peer_Trench_Straight_Short_Chameleon""],[[533.253,17667.2,16.5435],[[-0.731414,-0.679922,-0.052336],[-0.0291495,-0.045504,0.998539]],""Peer_Trench_Straight_Short_Chameleon""],[[530.7,17670,16.6239],[[-0.731414,-0.679922,-0.052336],[-0.0182934,-0.0571559,0.998198]],""Peer_Trench_Straight_Short_Chameleon""],[[528.147,17672.7,16.7253],[[-0.731414,-0.679922,-0.052336],[-0.0215452,-0.0536677,0.998326]],""Peer_Trench_Straight_Short_Chameleon""],[[517.779,17663.1,16.7253],[[0.731414,0.679922,-0.052336],[0.0550944,0.0175778,0.998326]],""Peer_Trench_Straight_Short_Chameleon""],[[520.333,17660.3,16.6239],[[0.731414,0.679922,-0.052336],[0.058337,0.0140798,0.998198]],""Peer_Trench_Straight_Short_Chameleon""],[[522.886,17657.6,16.5435],[[0.731414,0.679922,-0.052336],[0.0475075,0.0257557,0.998539]],""Peer_Trench_Straight_Short_Chameleon""],[[523.89,17711.5,18.145],[[-0.47264,-0.8797,-0.052336],[0.0318438,-0.0763977,0.996569]],""Peer_Trench_Straight_Short_Chameleon""],[[519.525,17713.8,18.4682],[[-0.47264,-0.8797,-0.052336],[0.033683,-0.0773777,0.996433]],""Peer_Trench_Straight_Short_Chameleon""],[[512.826,17701.3,18.4682],[[0.47264,0.8797,-0.052336],[0.0831148,0.0146254,0.996433]],""Peer_Trench_Straight_Short_Chameleon""],[[517.19,17699,18.145],[[0.47264,0.8797,-0.052336],[0.0812816,0.0156184,0.996569]],""Peer_Trench_Straight_Short_Chameleon""],[[501.855,17707.2,19.0469],[[0.472641,0.8797,-0.052336],[0.0539519,0.0303918,0.998081]],""Peer_Trench_Straight_Short_Chameleon""],[[506.219,17704.9,18.8775],[[0.472641,0.8797,-0.052336],[0.0557925,0.0293986,0.99801]],""Peer_Trench_Straight_Short_Chameleon""],[[512.918,17717.3,18.8775],[[-0.472641,-0.8797,-0.052336],[0.00628298,-0.0627503,0.99801]],""Peer_Trench_Straight_Short_Chameleon""],[[508.554,17719.7,19.0469],[[-0.472641,-0.8797,-0.052336],[0.00443935,-0.061764,0.998081]],""Peer_Trench_Straight_Short_Chameleon""],[[444.29,17573,16.2896],[[-0.935349,0.349833,-0.052336],[-0.0512623,0.0123345,0.998609]],""Peer_Trench_Straight_Short_Chameleon""],[[446.304,17578.4,16.3351],[[-0.935349,0.349833,-0.052336],[-0.0523196,0.00950411,0.998585]],""Peer_Trench_Straight_Short_Chameleon""],[[448.318,17583.8,16.3374],[[-0.935349,0.349833,-0.052336],[-0.0460002,0.0264013,0.998592]],""Peer_Trench_Straight_Short_Chameleon""],[[435.06,17588.7,16.3375],[[0.935349,-0.349834,-0.052336],[0.0520397,-0.0102535,0.998592]],""Peer_Trench_Straight_Short_Chameleon""],[[433.046,17583.4,16.3351],[[0.935349,-0.349834,-0.052336],[0.0457074,-0.0271831,0.998585]],""Peer_Trench_Straight_Short_Chameleon""],[[431.032,17578,16.2895],[[0.935349,-0.349834,-0.052336],[0.0467756,-0.0243306,0.998609]],""Peer_Trench_Straight_Short_Chameleon""],[[6543.15,12678.1,18.9895],[[-0.908597,-0.414383,-0.052336],[-0.0462094,-0.0248038,0.998624]],""Peer_Trench_Straight_Short_Chameleon""],[[6541.32,12682.1,19.021],[[-0.908597,-0.414383,-0.052336],[-0.043094,-0.0316279,0.99857]],""Peer_Trench_Straight_Short_Chameleon""],[[6543.88,12688.6,19.0207],[[-0.384892,0.921476,-0.052336],[-0.00426008,0.0549301,0.998481]],""Peer_Trench_Straight_Short_Chameleon""],[[6548.54,12690.5,19.0078],[[-0.384892,0.921476,-0.052336],[-0.0313661,0.0436124,0.998556]],""Peer_Trench_Straight_Short_Chameleon""],[[6553.2,12692.5,19.1084],[[-0.384892,0.921476,-0.052336],[-0.0457224,0.0375983,0.998246]],""Peer_Trench_Straight_Short_Chameleon""],[[6557.86,12694.4,19.2127],[[-0.384892,0.921476,-0.052336],[-0.0327208,0.0430455,0.998537]],""Peer_Trench_Straight_Short_Chameleon""],[[6553.17,12705.7,19.2122],[[0.384878,-0.921482,-0.052336],[0.00594186,-0.0542291,0.998511]],""Peer_Trench_Straight_Short_Chameleon""],[[6547.24,12703.2,19.0798],[[0.384878,-0.921482,-0.052336],[-0.00363462,-0.0582168,0.998297]],""Peer_Trench_Straight_Short_Chameleon""],[[6541.31,12700.7,19.0135],[[0.384878,-0.921482,-0.052336],[0.0249406,-0.0462998,0.998616]],""Peer_Trench_Straight_Short_Chameleon""],[[6535.38,12698.2,19.1058],[[0.384878,-0.921482,-0.052336],[0.0419048,-0.0391993,0.998352]],""Peer_Trench_Straight_Short_Chameleon""],[[6528.55,12680.8,19.0719],[[0.908606,0.414362,-0.052336],[0.0534235,0.00897334,0.998532]],""Peer_Trench_Straight_Short_Chameleon""],[[6530.32,12676.9,19.0193],[[0.908606,0.414362,-0.052336],[0.0520256,0.0120438,0.998573]],""Peer_Trench_Straight_Short_Chameleon""],[[6532.09,12673,18.9893],[[0.908606,0.414362,-0.052336],[0.0490265,0.0186266,0.998624]],""Peer_Trench_Straight_Short_Chameleon""],[[6541.25,12685.9,19.0779],[[-0.929706,0.364567,-0.052336],[-0.0496934,0.0166331,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[6528.3,12690.9,19.1783],[[0.929744,-0.364468,-0.052336],[0.0450328,-0.0285144,0.998579]],""Peer_Trench_Straight_Long_Chameleon""],[[6564.78,12697.3,19.3096],[[-0.384907,0.92147,-0.052336],[-0.0294309,0.0444219,0.998579]],""Peer_Trench_Straight_Short_Chameleon""],[[6569.62,12699.4,19.3577],[[-0.384907,0.92147,-0.052336],[-0.0278042,0.0451023,0.998595]],""Peer_Trench_Straight_Short_Chameleon""],[[6574.47,12701.4,19.3848],[[-0.384907,0.92147,-0.052336],[-0.0220862,0.0474925,0.998627]],""Peer_Trench_Straight_Short_Chameleon""],[[6579.32,12703.4,19.3952],[[-0.384907,0.92147,-0.052336],[-0.0219087,0.0475668,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[6586.64,12700.8,19.3877],[[0.876288,0.478936,-0.052336],[0.0506438,0.0164597,0.998581]],""Peer_Trench_Straight_Short_Chameleon""],[[6589.97,12694.7,19.3351],[[0.876288,0.478936,-0.052336],[0.0484831,0.0204167,0.998615]],""Peer_Trench_Straight_Short_Chameleon""],[[6600.64,12700.6,19.3326],[[-0.876292,-0.478929,-0.052336],[-0.0434207,-0.0296793,0.998616]],""Peer_Trench_Straight_Short_Chameleon""],[[6598.11,12705.2,19.3727],[[-0.876292,-0.478929,-0.052336],[-0.041113,-0.0338977,0.998579]],""Peer_Trench_Straight_Short_Chameleon""],[[6595.58,12709.8,19.4285],[[-0.876292,-0.478929,-0.052336],[-0.0405769,-0.0348773,0.998568]],""Peer_Trench_Straight_Short_Chameleon""],[[6577.96,12716,19.4013],[[0.384886,-0.921479,-0.052336],[0.0187541,-0.0488845,0.998628]],""Peer_Trench_Straight_Short_Chameleon""],[[6572,12713.5,19.3941],[[0.384886,-0.921479,-0.052336],[0.0195388,-0.0485567,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[6566.05,12711,19.3669],[[0.384886,-0.921479,-0.052336],[0.0130274,-0.0512748,0.9986]],""Peer_Trench_Straight_Short_Chameleon""],[[6560.09,12708.5,19.3098],[[0.384886,-0.921479,-0.052336],[0.010972,-0.0521322,0.99858]],""Peer_Trench_Straight_Short_Chameleon""],[[6583.47,12703.5,19.4147],[[0.330636,0.942306,-0.052336],[0.0146814,0.0503126,0.998626]],""Peer_Trench_Straight_Short_Chameleon""],[[6587.95,12716.3,19.4529],[[-0.330616,-0.942313,-0.052336],[-0.0251507,-0.0466376,0.998595]],""Peer_Trench_Straight_Long_Chameleon""],[[6593.57,12688.2,19.3403],[[0.876301,0.478913,-0.052336],[0.0412386,0.0336685,0.998582]],""Peer_Trench_Straight_Short_Chameleon""],[[6596.28,12683.2,19.3875],[[0.876301,0.478913,-0.052336],[0.042586,0.0312058,0.998605]],""Peer_Trench_Straight_Short_Chameleon""],[[6594.03,12677.3,19.121],[[0.331783,-0.941903,-0.052336],[0.00574341,-0.0534606,0.998554]],""Peer_Trench_Straight_Short_Chameleon""],[[6588.96,12675.6,19.0855],[[0.331783,-0.941903,-0.052336],[0.0165617,-0.0496541,0.998629]],""Peer_Trench_Straight_Short_Chameleon""],[[6583.9,12673.8,19.1049],[[0.331783,-0.941903,-0.052336],[0.0250414,-0.0466653,0.998597]],""Peer_Trench_Straight_Short_Chameleon""],[[6578.83,12672,19.0911],[[0.331783,-0.941903,-0.052336],[0.00489921,-0.0537573,0.998542]],""Peer_Trench_Straight_Short_Chameleon""],[[6582.87,12660.5,19.0835],[[-0.3318,0.941897,-0.052336],[-0.0277835,0.0456977,0.998569]],""Peer_Trench_Straight_Short_Chameleon""],[[6589.41,12662.8,19.1015],[[-0.3318,0.941897,-0.052336],[-0.0118932,0.0512978,0.998613]],""Peer_Trench_Straight_Short_Chameleon""],[[6595.96,12665.1,19.1055],[[-0.3318,0.941897,-0.052336],[-0.0239637,0.0470453,0.998605]],""Peer_Trench_Straight_Short_Chameleon""],[[6602.51,12667.4,19.1893],[[-0.3318,0.941897,-0.052336],[-0.0335736,0.0436532,0.998482]],""Peer_Trench_Straight_Short_Chameleon""],[[6609.2,12684.9,19.389],[[-0.876304,-0.478908,-0.052336],[-0.0415863,-0.0330333,0.998589]],""Peer_Trench_Straight_Short_Chameleon""],[[6606.72,12689.4,19.3887],[[-0.876304,-0.478908,-0.052336],[-0.0503139,-0.0170634,0.998588]],""Peer_Trench_Straight_Short_Chameleon""],[[6604.24,12694,19.3393],[[-0.876304,-0.478908,-0.052336],[-0.0506931,-0.0163687,0.99858]],""Peer_Trench_Straight_Short_Chameleon""],[[6596.48,12679.8,19.29],[[0.932484,-0.357399,-0.052336],[0.0385054,-0.0457099,0.998212]],""Peer_Trench_Straight_Short_Chameleon""],[[6609.86,12674.6,19.3119],[[-0.932506,0.357343,-0.052336],[-0.0532575,0.00726854,0.998554]],""Peer_Trench_Straight_Long_Chameleon""],[[6535.21,12666.2,19.0311],[[0.908597,0.414383,-0.052336],[0.0415652,0.0349741,0.998523]],""Peer_Trench_Straight_Short_Chameleon""],[[6536.99,12662.3,19.0803],[[0.908597,0.414383,-0.052336],[0.0441847,0.0292395,0.998595]],""Peer_Trench_Straight_Short_Chameleon""],[[6538.78,12658.4,19.1116],[[0.908597,0.414383,-0.052336],[0.0450237,0.0274018,0.99861]],""Peer_Trench_Straight_Short_Chameleon""],[[6555.98,12651.1,19.1908],[[-0.331779,0.941904,-0.052336],[0.0126043,0.0598996,0.998125]],""Peer_Trench_Straight_Short_Chameleon""],[[6562.58,12653.4,19.0231],[[-0.331779,0.941904,-0.052336],[-0.00221405,0.0547008,0.9985]],""Peer_Trench_Straight_Short_Chameleon""],[[6569.19,12655.7,18.9812],[[-0.331779,0.941904,-0.052336],[-0.0212641,0.0479973,0.998621]],""Peer_Trench_Straight_Short_Chameleon""],[[6575.79,12658,19.0167],[[-0.331779,0.941904,-0.052336],[-0.0230791,0.0473574,0.998611]],""Peer_Trench_Straight_Short_Chameleon""],[[6571.75,12669.5,19.0109],[[0.331801,-0.941896,-0.052336],[0.0112642,-0.0515191,0.998609]],""Peer_Trench_Straight_Short_Chameleon""],[[6566.3,12667.6,18.9815],[[0.331801,-0.941896,-0.052336],[0.0139344,-0.0505793,0.998623]],""Peer_Trench_Straight_Short_Chameleon""],[[6560.84,12665.7,18.9868],[[0.331801,-0.941896,-0.052336],[0.0225601,-0.0475402,0.998615]],""Peer_Trench_Straight_Short_Chameleon""],[[6555.39,12663.7,19.0742],[[0.331801,-0.941896,-0.052336],[0.0407019,-0.0411333,0.998324]],""Peer_Trench_Straight_Short_Chameleon""],[[6548.32,12666.7,19.0853],[[-0.908588,-0.414401,-0.052336],[-0.050571,-0.0152382,0.998604]],""Peer_Trench_Straight_Short_Chameleon""],[[6546.27,12671.2,19.0328],[[-0.908588,-0.414401,-0.052336],[-0.0534594,-0.00889584,0.99853]],""Peer_Trench_Straight_Short_Chameleon""],[[6545.97,12651.4,19.2377],[[0.390823,0.918977,-0.052336],[-0.00112342,0.0573343,0.998354]],""Peer_Trench_Straight_Long_Chameleon""],[[6551.28,12663.9,19.1411],[[-0.390846,-0.918967,-0.052336],[-0.0275619,-0.0451488,0.9986]],""Peer_Trench_Straight_Short_Chameleon""]]";
+				};
+			};
+		};
+		class Attribute3
+		{
+			property="trencher_main_simulatedObjects";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="STRING";
+					value="[]";
 				};
 			};
 		};
@@ -8217,7 +8217,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13460.376,0.92621452,1671.1071};
+						position[]={13460.376,0.92621464,1671.1071};
 						angles[]={0,2.1517117,0};
 					};
 					side="West";
@@ -8383,7 +8383,7 @@ class Mission
 					};
 					id=23016;
 					type="B_medic_F";
-					atlOffset=1.7881393e-06;
+					atlOffset=1.9073486e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8433,7 +8433,7 @@ class Mission
 			{
 			};
 			id=23015;
-			atlOffset=1.7881393e-06;
+			atlOffset=1.9073486e-06;
 		};
 		class Item27
 		{
@@ -8447,7 +8447,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13459.05,0.81335163,1669.8939};
+						position[]={13459.05,0.81335175,1669.8939};
 						angles[]={0,2.2391603,0};
 					};
 					side="West";
@@ -8564,14 +8564,14 @@ class Mission
 					};
 					id=23018;
 					type="B_Soldier_F";
-					atlOffset=4.8279762e-06;
+					atlOffset=4.9471855e-06;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=23017;
-			atlOffset=4.8279762e-06;
+			atlOffset=4.9471855e-06;
 		};
 		class Item28
 		{
@@ -22384,7 +22384,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16150.745,1.7902364,6813.2495};
+						position[]={16150.745,1.7902365,6813.2495};
 						angles[]={0,3.5761936,0};
 					};
 					side="East";
@@ -22396,7 +22396,7 @@ class Mission
 					};
 					id=23722;
 					type="UK3CB_CHD_O_RIF_1";
-					atlOffset=1.6827916;
+					atlOffset=1.6827917;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23589,7 +23589,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15982.301,1.8299757,6209.9922};
+						position[]={15982.301,1.8299758,6209.9922};
 						angles[]={0,3.627377,0};
 					};
 					side="West";
@@ -23723,14 +23723,14 @@ class Mission
 					};
 					id=23727;
 					type="B_medic_F";
-					atlOffset=0.022832632;
+					atlOffset=0.022832751;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=23726;
-			atlOffset=0.022832632;
+			atlOffset=0.022832751;
 		};
 		class Item163
 		{
@@ -23744,7 +23744,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={15980.787,1.7900683,6210.9756};
+						position[]={15980.787,1.7900684,6210.9756};
 						angles[]={0,3.537015,0};
 					};
 					side="West";
@@ -23868,14 +23868,14 @@ class Mission
 					};
 					id=23729;
 					type="B_Soldier_F";
-					atlOffset=0.02850008;
+					atlOffset=0.028500199;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=23728;
-			atlOffset=0.02850008;
+			atlOffset=0.028500199;
 		};
 		class Item164
 		{
@@ -25290,7 +25290,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13465.436,1.8980803,1677.063};
+				position[]={13465.436,1.8980806,1677.063};
 			};
 			side="Empty";
 			flags=5;
@@ -25300,7 +25300,37 @@ class Mission
 			};
 			id=23859;
 			type="Sign_Arrow_Large_Cyan_F";
-			atlOffset=5.0067902e-06;
+			atlOffset=5.2452087e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item173
 		{
@@ -25317,6 +25347,36 @@ class Mission
 			};
 			id=23865;
 			type="Sign_Arrow_Large_Cyan_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item174
 		{
@@ -25499,6 +25559,36 @@ class Mission
 			};
 			id=23874;
 			type="Sign_Arrow_Large_Cyan_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item178
 		{
@@ -25516,6 +25606,36 @@ class Mission
 			id=23875;
 			type="Sign_Arrow_Large_Cyan_F";
 			atlOffset=3.8146973e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item179
 		{
@@ -25533,6 +25653,36 @@ class Mission
 			id=23877;
 			type="Sign_Arrow_Large_Cyan_F";
 			atlOffset=1.9073486e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item180
 		{
@@ -25550,13 +25700,43 @@ class Mission
 			id=23878;
 			type="Sign_Arrow_Large_Cyan_F";
 			atlOffset=1.9073486e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item181
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15994.615,2.4710007,6213.5396};
+				position[]={15994.615,2.4710009,6213.5396};
 			};
 			side="Empty";
 			flags=5;
@@ -25566,7 +25746,37 @@ class Mission
 			};
 			id=23879;
 			type="Sign_Arrow_Large_Cyan_F";
-			atlOffset=1.6689301e-06;
+			atlOffset=1.9073486e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item182
 		{
@@ -25583,6 +25793,36 @@ class Mission
 			};
 			id=23880;
 			type="Sign_Arrow_Large_Cyan_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#(argb,8,8,3)color(0,0,0,0,ca)";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 		class Item183
 		{
@@ -25612,7 +25852,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13466.234,1.6030878,1671.785};
+						position[]={13466.234,1.6030879,1671.785};
 						angles[]={6.2718124,0,0.0068272259};
 					};
 					side="Empty";
@@ -25622,14 +25862,14 @@ class Mission
 					};
 					id=22998;
 					type="1715_objects_table";
-					atlOffset=-5.5909157e-05;
+					atlOffset=-5.5789948e-05;
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13468.917,1.6039138,1671.9479};
+						position[]={13468.917,1.6039139,1671.9479};
 						angles[]={0.0045412821,5.650125,6.267262};
 					};
 					side="Empty";
@@ -25639,14 +25879,14 @@ class Mission
 					};
 					id=23004;
 					type="1715_objects_table";
-					atlOffset=4.2915344e-06;
+					atlOffset=4.4107437e-06;
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13465.25,1.6436211,1673.209};
+						position[]={13465.25,1.6436212,1673.209};
 						angles[]={6.2718124,0,0.0068272259};
 					};
 					side="Empty";
@@ -25656,14 +25896,14 @@ class Mission
 					};
 					id=22995;
 					type="1715_objects_chair";
-					atlOffset=4.2915344e-06;
+					atlOffset=4.4107437e-06;
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13466.603,1.6492001,1673.083};
+						position[]={13466.603,1.6492002,1673.083};
 						angles[]={6.2718124,0,0};
 					};
 					side="Empty";
@@ -25673,14 +25913,14 @@ class Mission
 					};
 					id=22999;
 					type="1715_objects_chair";
-					atlOffset=1.7881393e-06;
+					atlOffset=1.9073486e-06;
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13466.184,1.6183957,1670.4379};
+						position[]={13466.184,1.6183958,1670.4379};
 						angles[]={6.2718124,2.7264884,0.0068272259};
 					};
 					side="Empty";
@@ -25690,14 +25930,14 @@ class Mission
 					};
 					id=23000;
 					type="1715_objects_chair";
-					atlOffset=-6.8545341e-05;
+					atlOffset=-6.8426132e-05;
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13472.801,1.0768495,1675.473};
+						position[]={13472.801,1.0768496,1675.473};
 						angles[]={6.2695355,0.18246971,0.0068272259};
 					};
 					side="Empty";
@@ -25707,14 +25947,14 @@ class Mission
 					};
 					id=23019;
 					type="1715_french_6pounder";
-					atlOffset=4.1723251e-06;
+					atlOffset=4.2915344e-06;
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13462.508,1.1167377,1677.3403};
+						position[]={13462.508,1.1167378,1677.3403};
 						angles[]={6.2763581,0.31307226,0.0068272259};
 					};
 					side="Empty";
@@ -25724,7 +25964,7 @@ class Mission
 					};
 					id=23020;
 					type="1715_french_6pounder";
-					atlOffset=0.0040818453;
+					atlOffset=0.0040819645;
 				};
 				class Item8
 				{
@@ -25747,7 +25987,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13463.945,1.8194461,1672.5734};
+						position[]={13463.945,1.8194462,1672.5734};
 					};
 					side="Empty";
 					class Attributes
@@ -25755,14 +25995,14 @@ class Mission
 					};
 					id=22997;
 					type="1715_Lantern_On";
-					atlOffset=0.52418125;
+					atlOffset=0.52418137;
 				};
 				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13463.997,1.3592868,1671.8309};
+						position[]={13463.997,1.3592869,1671.8309};
 						angles[]={6.2604365,1.5295118,0.018201422};
 					};
 					side="Empty";
@@ -25772,7 +26012,7 @@ class Mission
 					};
 					id=22993;
 					type="1715_objects_bench";
-					atlOffset=-4.2915344e-06;
+					atlOffset=-4.1723251e-06;
 				};
 				class Item11
 				{
@@ -25794,7 +26034,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13468.05,1.2024981,1675.5913};
+						position[]={13468.05,1.2024982,1675.5913};
 						angles[]={6.2786441,0,6.267262};
 					};
 					side="Empty";
@@ -25804,11 +26044,11 @@ class Mission
 					};
 					id=23005;
 					type="FireLit";
-					atlOffset=4.2915344e-06;
+					atlOffset=4.4107437e-06;
 				};
 			};
 			id=23882;
-			atlOffset=0.26145089;
+			atlOffset=0.26145101;
 		};
 		class Item184
 		{
@@ -28643,7 +28883,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16161.784,0.96686488,6771.0156};
+						position[]={16161.784,0.966865,6771.0156};
 					};
 					side="Empty";
 					flags=4;
@@ -28652,14 +28892,14 @@ class Mission
 					};
 					id=23621;
 					type="Fort_RazorWire";
-					atlOffset=3.4421682e-06;
+					atlOffset=3.5613775e-06;
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16166.275,0.75951356,6771.5298};
+						position[]={16166.275,0.75951368,6771.5298};
 					};
 					side="Empty";
 					flags=4;
@@ -28668,14 +28908,14 @@ class Mission
 					};
 					id=23622;
 					type="Fort_RazorWire";
-					atlOffset=0.029065685;
+					atlOffset=0.029065805;
 				};
 				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16174.333,0.75507021,6772.0933};
+						position[]={16174.333,0.75507033,6772.0933};
 					};
 					side="Empty";
 					flags=4;
@@ -28684,14 +28924,14 @@ class Mission
 					};
 					id=23623;
 					type="Fort_RazorWire";
-					atlOffset=0.029065698;
+					atlOffset=0.029065818;
 				};
 				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16182.364,0.15300721,6772.1641};
+						position[]={16182.364,0.15300733,6772.1641};
 					};
 					side="Empty";
 					flags=4;
@@ -28700,14 +28940,14 @@ class Mission
 					};
 					id=23624;
 					type="Fort_RazorWire";
-					atlOffset=3.2186508e-06;
+					atlOffset=3.3378601e-06;
 				};
 				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16190.422,-0.86251283,6772.7275};
+						position[]={16190.422,-0.86251271,6772.7275};
 						angles[]={0.05908861,0,6.1452723};
 					};
 					side="Empty";
@@ -28717,7 +28957,7 @@ class Mission
 					};
 					id=23625;
 					type="Fort_RazorWire";
-					atlOffset=0.029065728;
+					atlOffset=0.029065847;
 				};
 				class Item12
 				{
@@ -45922,7 +46162,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13467.456,0.45219293,1644.2487};
+				position[]={13467.456,0.45219302,1644.2487};
 				angles[]={0,5.0211883,0};
 			};
 			side="Empty";
@@ -45932,14 +46172,14 @@ class Mission
 			};
 			id=24274;
 			type="Land_BoatSmall_1";
-			atlOffset=6.3329935e-07;
+			atlOffset=7.2270632e-07;
 		};
 		class Item447
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={13475.363,0.36607966,1645.2815};
+				position[]={13475.363,0.36607975,1645.2815};
 				angles[]={6.2467957,2.9749227,6.2695355};
 			};
 			side="Empty";
@@ -45949,7 +46189,7 @@ class Mission
 			};
 			id=24277;
 			type="Land_BoatSmall_1";
-			atlOffset=6.4820051e-07;
+			atlOffset=7.3760748e-07;
 		};
 		class Item448
 		{
