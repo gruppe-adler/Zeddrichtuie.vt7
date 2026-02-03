@@ -15,10 +15,13 @@ if (isServer) then {
     private _GRAD_Z_portalPhase = [
       -1,
       [
-        [0,4],
-        [0,4],
-        [0,4],
-        [0,4]
+        [0,4],  // phase 0 - Nassau
+        [0,4],  // phase 1 - WW1
+        [0,4],  // phase 2 - WW2
+        [0,4],  // phase 3 - 70s
+        [0,4],  // phase 4 - today
+        [0,4],  // phase 5 - 2050
+        [0,4]   // phase 6 - Star Wars
       ]
     ];
     missionNamespace setVariable ["GRAD_Z_portalPhase", _GRAD_Z_portalPhase, true];

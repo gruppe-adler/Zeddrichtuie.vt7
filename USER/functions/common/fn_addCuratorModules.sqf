@@ -2,7 +2,7 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [-1, 0]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [0, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;
 
@@ -10,7 +10,7 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [0, 1]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [1, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;
 
@@ -18,7 +18,7 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [1, 2]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [2, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;
 
@@ -26,7 +26,7 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [2, 3]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [3, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;
 
@@ -34,7 +34,7 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [3, 4]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [4, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;
 
@@ -42,7 +42,7 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [4, 5]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [5, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;
 
@@ -50,6 +50,6 @@
      params ["_position", "_object"];
 
     [{
-        ["GRAD_Z_phaseControl", [5, 6]] call CBA_fnc_serverEvent;
+        ["GRAD_Z_phaseControl", [6, 0]] call CBA_fnc_serverEvent;
     }, [], 2] call CBA_fnc_waitAndExecute;
 }] call zen_custom_modules_fnc_register;

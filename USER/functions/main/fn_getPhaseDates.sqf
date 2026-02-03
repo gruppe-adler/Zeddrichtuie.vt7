@@ -5,7 +5,7 @@ private _result = [-10000,10000]; // teleportation dates
 switch (_phase) do {
      case -1 : {
         _result = [
-            2025,-10000
+            -10000,-10000
         ];
     };
     case 0 : {

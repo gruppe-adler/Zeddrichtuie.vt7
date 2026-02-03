@@ -109,7 +109,7 @@ if (local _unit && !isPlayer _unit) then {
             ["GRAD_Z_curatorInfo",[_unit, "teleport_end"]] call CBA_fnc_serverEvent;
 
             [_unit, [_customPosition#0, _customPosition#1, (_destination#2 max 0)], true] call GRAD_Z_teleport_fnc_despawnEffect;
-            [_unit, "Acts_UnconsciousStandUp_part1"] remoteExec ["switchMove"];
+            // [_unit, "Acts_UnconsciousStandUp_part1"] remoteExec ["switchMove"];
             [_unit] call zen_common_fnc_healUnit;
 
             private _currentPhase = [] call GRAD_Z_main_fnc_getCurrentPhase;
