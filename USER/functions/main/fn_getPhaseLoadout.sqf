@@ -51,7 +51,7 @@ switch (_phase) do {
         };
     };
     case 3 : {
-        // Cold War
+        // 70s Cold War
         if (_isMedic) then {
             _result = [["gm_g3a3a0_oli","","","",["gm_20Rnd_762x51mm_B_T_DM21_g3_blk",20],[],""],[],[],["gm_ge_army_uniform_soldier_80_oli",[]],["gm_pl_army_vest_80_rifleman_gry",[["gm_20Rnd_762x51mm_B_T_DM21_g3_blk",11,20]]],["gm_ge_army_backpack_80_oli",[["ACE_quikclot",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_fieldDressing",5],["ACE_morphine",1],["ACE_tourniquet",2],["ACE_splint",2],["ACE_epinephrine",2],["ACE_bloodIV_500",1],["rhs_grenade_nbhgr39_mag",3,1]]],"gm_ge_headgear_m62","",["gm_ferod16_oli","","","",[],[],""],["ItemMap","","","ItemCompass","ItemWatch",""]];
         } else {

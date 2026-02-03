@@ -1,4 +1,4 @@
-if (isServer) exitWith {};
+if (!hasInterface) exitWith {};
     
 if (!canSuspend) exitWith {
     [] spawn GRAD_Z_teleport_fnc_introText;
