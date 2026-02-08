@@ -8,7 +8,6 @@ class GRAD_Z_common {
         class curatorEventhandler { postInit = 1; };
         class curatorShowFeedbackMessage;
         class setObjectScaleSafe;
-        class healSelf;
         class checkLifestate { postInit = 1; };
     };
 };

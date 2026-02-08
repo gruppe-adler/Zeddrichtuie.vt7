@@ -36,10 +36,11 @@ switch (_phase) do {
     };
     case 1 : {
         // WW1
+        // [[["tsgw_G98","","","",["tsgw_G98_mag",5],[],""],[],[],["U_TSGW_German_1914",[["FirstAidKit",1],["tsgw_G98_mag",9,5]]],["TSGW_GER_Vest",[]],[],"TSGW_Pickelhaubecover","",[],["","","","","",""]],[]]
         if (_isMedic) then {
-            _result = [["tsgw_Lebel1886","","","",["tsgw_Lebel1886_mag",9],[],""],[],[],["U_TSGW_French_1914",[["FirstAidKit",1],["tsgw_Lebel1886_mag",8,9]]],["TSGW_FR_Vest",[]],["TSGW_French_1914_backpack",[["tsgw_chauchat_mag",5,20]]],"TSGW_Kepicover","",[],["","","","","",""]];
+            _result = [["tsgw_G98","","","",["tsgw_G98_mag",5],[],""],[],[],["U_TSGW_German_1914",[["FirstAidKit",1],["tsgw_G98_mag",9,5]]],["TSGW_GER_Vest",[]],[],"TSGW_Pickelhaubecover","",[],["","","","","",""]];
         } else {
-            _result = [["tsgw_Lebel1886","","","",["tsgw_Lebel1886_mag",9],[],""],[],[],["U_TSGW_French_1914",[["FirstAidKit",1],["tsgw_Lebel1886_mag",8,9]]],["TSGW_FR_Vest",[]],["TSGW_French_1914_backpack",[["tsgw_chauchat_mag",5,20]]],"TSGW_Kepicover","",[],["","","","","",""]];
+            _result = [["tsgw_G98","","","",["tsgw_G98_mag",5],[],""],[],[],["U_TSGW_German_1914",[["FirstAidKit",1],["tsgw_G98_mag",9,5]]],["TSGW_GER_Vest",[]],[],"TSGW_Pickelhaubecover","",[],["","","","","",""]];
         };
     };
     case 2 : {
